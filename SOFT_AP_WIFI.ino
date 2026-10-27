@@ -2,7 +2,7 @@
 
 char ssid[] = "ESP32NETWORK"; // SSID & PUT SSID ACCORDING TO YOUR DESIRE
 char pass[] = "REDACTED"; // PASS & PUT PASS ACCORDING TO YOUR DESIRE
-const int Pin_Point = 2; // GPIO 2 
+const int Pin_Point = 2; // GPIO 2 .
 
 void Blinker() {
   for (int i = 0 ; i < 3 ; i++) { // 3 , I = 0 (Initial) , i++ added
